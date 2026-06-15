@@ -1,0 +1,124 @@
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+    background-color: lightcyan;
+    border-radius: 150px;
+    text-align: center;
+    color:crimson;
+    font-family: sans;
+}
+h3{
+margin: 20px;
+
+}
+
+
+
+#text{
+    font-size: 18px;
+}
+
+.menu {
+  background: lightcyan;
+  padding: 8px;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu li a {
+  display: inline-block;
+  padding: 10px 16px;
+  background: lightcyan;
+  color: crimson;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: background 0.2s;
+}
+
+.menu li a:hover {
+  background: crimson;
+  color: white;
+}
+
+#contacto{
+   
+    padding: 3px;
+    margin: 5px;
+    font-weight: 600;
+}
+
+img{
+    border-radius: 0 90px 90px 0;
+    margin: 20px;
+}
+
+#galeria{
+    display: flex;
+}
+
+button{
+    padding: 8px;
+    border: none;
+    margin-right: 15px;
+    border-radius: 0 10px 10px 0;
+    color:aliceblue
+}
+
+#whatsapp_{
+    text-align: center;
+    background-color:rgb(10, 187, 10);
+    font-weight: 600;
+    width: 150px;
+    font-size: 14px;
+    margin:0 0 0 10px;
+
+
+}
+#whatsapp{
+    background-color:rgb(10, 187, 10);
+    font-weight: 600;
+}
+#instagram{
+    background-color:rgb(153, 54, 153);
+    font-weight: 600;
+}
+#facebook{
+    background-color:rgb(54, 54, 153);
+    font-weight: 600;
+}
+
+#atencion{
+background-color: rgb(194, 245, 245);
+color: rgb(15, 14, 14);
+font-size: 12px;
+width: 380px;
+position: fixed;
+bottom: 10px;
+right: 10px;
+z-index: 99;
+border-radius: 35px 0 0 35px;
+padding: 15px;
+
+
+}
+span{
+    font-weight: bold;
+}
